@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Afaq Ahmad — Growth & E-commerce</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@300;400;500;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+:root{
+--cream:#F4ECD8;
+--olive:#2F3A1F;
+--mustard:#E0A82E;
+--soft:#4A5A33;
+--ink:#1C2410;
+}
+
+body{
+margin:0;
+font-family:'DM Sans',sans-serif;
+background:var(--cream);
+color:var(--ink);
+}
+
+.container{
+max-width:1100px;
+margin:auto;
+padding:40px 20px;
+}
+
+h1,h2,h3{
+font-family:'Fraunces',serif;
+}
+
+.hero{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:40px;
+align-items:center;
+}
+
+.hero h1{
+font-size:60px;
+line-height:1;
+}
+
+.hero em{
+color:var(--mustard);
+font-style:italic;
+}
+
+.lede{
+margin-top:20px;
+font-size:18px;
+color:var(--soft);
+}
+
+.section{
+padding:80px 0;
+}
+
+.case{
+margin-bottom:60px;
+}
+
+.result-box{
+background:var(--olive);
+color:white;
+padding:20px;
+margin-top:15px;
+}
+
+.result-box strong{
+color:var(--mustard);
+font-size:24px;
+}
+
+.graph{
+display:flex;
+gap:30px;
+align-items:flex-end;
+height:200px;
+margin-top:40px;
+}
+
+.bar{
+width:80px;
+background:var(--soft);
+position:relative;
+transition:.4s;
+}
+
+.bar.highlight{
+background:var(--mustard);
+}
+
+.bar span{
+position:absolute;
+bottom:-25px;
+width:100%;
+text-align:center;
+font-size:12px;
+}
+
+.contact{
+background:var(--olive);
+color:white;
+padding:60px 40px;
+margin-top:60px;
+}
+
+a{
+color:var(--mustard);
+text-decoration:none;
+}
+
+@media(max-width:800px){
+.hero{
+grid-template-columns:1fr;
+}
+.hero h1{
+font-size:42px;
+}
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<section class="hero">
+<div>
+<h1>I build <em>systems</em><br>that drive growth.</h1>
+<p class="lede">
+E-commerce & Growth Manager focused on building scalable systems that increase revenue, not just aesthetics.
+</p>
+</div>
+
+<div>
+<img src="https://images.unsplash.com/photo-1527980965255-d3b416303d12" width="100%" />
+</div>
+</section>
+
+<section class="section">
+<h2>Selected Work</h2>
+
+<div class="case">
+<h3>Noqoosh — Growth System</h3>
+<p>Built ad + creative system to scale performance.</p>
+
+<div class="result-box">
+<strong>+112% Revenue Growth</strong><br>
+Within 90 days using structured testing
+</div>
+
+<div class="graph">
+<div class="bar" style="height:40%"><span>Before</span></div>
+<div class="bar highlight" style="height:85%"><span>After</span></div>
+</div>
+
+</div>
+
+</section>
+
+<section class="contact">
+<h2>Let’s Build Something That Works</h2>
+<p>Available for growth, performance & e-commerce roles.</p>
+
+<a href="#">Contact Me →</a>
+</section>
+
+</div>
+
+</body>
+</html>
